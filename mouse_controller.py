@@ -97,9 +97,8 @@ class MouseController:
         try:
             key_char = key.char if hasattr(key, 'char') else str(key)
             logging.info(f'キー入力検出: {key_char}')
-            
-            if key == keyboard.KeyCode.from_char(self.trigger_key):
-                
+
+            if key_char == self.trigger_key:    
                 logging.info(f'トリガーキー[{self.trigger_key}]が押されました。クリックを実行します。')
                 self.perform_click()
             elif key == keyboard.Key.esc:  # ESCキーで終了

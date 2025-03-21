@@ -1,7 +1,7 @@
 # マウスコントローラ設定ファイル
 
 key_bindings:
-  trigger_key: "K"  # トリガーキー
+  trigger_key: "k"  # トリガーキー
   click_type: "left"  # left/right/middle
 
 libraries:
