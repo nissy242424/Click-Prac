@@ -1,0 +1,18 @@
+# マウスコントローラ設定ファイル
+
+key_bindings:
+  trigger_key: "K"  # トリガーキー
+  click_type: "left"  # left/right/middle
+
+libraries:
+  priority: 
+    - pynput
+    - PyAutoGUI
+    - mouse
+    - pywinauto
+    - ctypes
+
+logging:
+  enabled: true
+  file_path: "mouse_controller.log"
+  level: "INFO"

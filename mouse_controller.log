@@ -1,0 +1,70 @@
+2025-03-22 00:51:19,100 - INFO - Mouse controller started
+2025-03-22 00:58:09,573 - INFO - Mouse controller started
+2025-03-22 00:58:58,292 - INFO - ESC key pressed. Exiting program...
+2025-03-22 00:58:58,292 - INFO - Performing cleanup before exit
+2025-03-22 00:59:05,002 - INFO - Mouse controller started
+2025-03-22 00:59:13,714 - INFO - ESC key pressed. Exiting program...
+2025-03-22 00:59:13,715 - INFO - Performing cleanup before exit
+2025-03-22 00:59:35,937 - INFO - Mouse controller started
+2025-03-22 00:59:43,604 - INFO - ESC key pressed. Exiting program...
+2025-03-22 00:59:43,604 - INFO - Performing cleanup before exit
+2025-03-22 01:08:18,510 - INFO - Mouse controller started
+2025-03-22 01:08:22,830 - INFO - キー入力検出: d
+2025-03-22 01:08:23,846 - INFO - キー入力検出: Key.backspace
+2025-03-22 01:08:24,037 - INFO - キー入力検出: None
+2025-03-22 01:08:24,461 - INFO - キー入力検出: d
+2025-03-22 01:08:24,933 - INFO - キー入力検出: d
+2025-03-22 01:08:25,198 - INFO - キー入力検出: d
+2025-03-22 01:08:33,473 - INFO - キー入力検出: k
+2025-03-22 01:08:34,566 - INFO - キー入力検出: Key.backspace
+2025-03-22 01:08:37,464 - INFO - キー入力検出: Key.esc
+2025-03-22 01:08:37,465 - INFO - ESC key pressed. Exiting program...
+2025-03-22 01:08:37,465 - INFO - Performing cleanup before exit
+2025-03-22 01:08:57,694 - INFO - Mouse controller started
+2025-03-22 01:08:58,504 - INFO - キー入力検出: d
+2025-03-22 01:09:00,460 - INFO - キー入力検出: d
+2025-03-22 01:09:01,056 - INFO - キー入力検出: d
+2025-03-22 01:09:01,754 - INFO - キー入力検出: Key.backspace
+2025-03-22 01:09:01,931 - INFO - キー入力検出: Key.backspace
+2025-03-22 01:09:04,405 - INFO - キー入力検出: Key.esc
+2025-03-22 01:09:04,405 - INFO - ESC key pressed. Exiting program...
+2025-03-22 01:09:04,405 - INFO - Performing cleanup before exit
+2025-03-22 01:09:08,729 - INFO - Mouse controller started
+2025-03-22 01:09:10,153 - INFO - キー入力検出: Key.esc
+2025-03-22 01:09:10,154 - INFO - ESC key pressed. Exiting program...
+2025-03-22 01:09:10,154 - INFO - Performing cleanup before exit
+2025-03-22 01:09:26,541 - INFO - Mouse controller started
+2025-03-22 01:09:27,232 - INFO - キー入力検出: d
+2025-03-22 01:09:29,991 - INFO - キー入力検出: Key.esc
+2025-03-22 01:09:29,991 - INFO - ESC key pressed. Exiting program...
+2025-03-22 01:09:29,991 - INFO - Performing cleanup before exit
+2025-03-22 01:09:36,773 - INFO - Mouse controller started
+2025-03-22 01:09:38,025 - INFO - キー入力検出: k
+2025-03-22 01:09:40,090 - INFO - キー入力検出: k
+2025-03-22 01:09:40,493 - INFO - キー入力検出: k
+2025-03-22 01:09:40,840 - INFO - キー入力検出: k
+2025-03-22 01:09:41,889 - INFO - キー入力検出: k
+2025-03-22 01:09:42,147 - INFO - キー入力検出: k
+2025-03-22 01:09:43,013 - INFO - キー入力検出: k
+2025-03-22 01:09:43,773 - INFO - キー入力検出: k
+2025-03-22 01:09:45,917 - INFO - キー入力検出: k
+2025-03-22 01:09:46,511 - INFO - キー入力検出: k
+2025-03-22 01:09:47,322 - INFO - キー入力検出: k
+2025-03-22 01:09:48,169 - INFO - キー入力検出: k
+2025-03-22 01:09:49,278 - INFO - キー入力検出: j
+2025-03-22 01:09:49,611 - INFO - キー入力検出: j
+2025-03-22 01:09:49,932 - INFO - キー入力検出: k
+2025-03-22 01:09:50,359 - INFO - キー入力検出: k
+2025-03-22 01:09:50,698 - INFO - キー入力検出: k
+2025-03-22 01:09:51,032 - INFO - キー入力検出: k
+2025-03-22 01:09:51,651 - INFO - キー入力検出: k
+2025-03-22 01:09:52,211 - INFO - キー入力検出: k
+2025-03-22 01:09:52,671 - INFO - キー入力検出: k
+2025-03-22 01:09:54,674 - INFO - キー入力検出: k
+2025-03-22 01:09:55,354 - INFO - キー入力検出: k
+2025-03-22 01:09:56,378 - INFO - キー入力検出: k
+2025-03-22 01:10:02,766 - INFO - キー入力検出: k
+2025-03-22 01:10:03,155 - INFO - キー入力検出: k
+2025-03-22 01:10:05,194 - INFO - キー入力検出: Key.esc
+2025-03-22 01:10:05,194 - INFO - ESC key pressed. Exiting program...
+2025-03-22 01:10:05,194 - INFO - Performing cleanup before exit
