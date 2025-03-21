@@ -1,3 +1,4 @@
+import argparse
 import yaml
 import logging
 from pynput import keyboard
@@ -19,15 +20,28 @@ logging.basicConfig(
 )
 
 class MouseController:
-    def __init__(self):
+    def __init__(self, library=None):
         self.trigger_key = config['key_bindings']['trigger_key']
         self.click_type = config['key_bindings']['click_type']
         self.libraries = config['libraries']['priority']
         self.current_library = None
-        self.init_library()
+        self.init_library(library)
 
-    def init_library(self):
-        """優先順位に従ってライブラリを初期化"""
+    def init_library(self, library=None):
+        """ライブラリを初期化
+        
+        Args:
+            library (str, optional): 使用するライブラリ名. Noneの場合は設定ファイルの優先順位に従う
+        """
+        if library:
+            # コマンドラインで指定されたライブラリを優先
+            if library in self.libraries:
+                self.current_library = library
+                return
+            else:
+                logging.warning(f'指定されたライブラリ {library} は利用できません')
+                
+        # 設定ファイルの優先順位に従う
         for lib in self.libraries:
             try:
                 if lib == 'pynput':
@@ -123,6 +137,43 @@ class MouseController:
             except KeyboardInterrupt:
                 self.stop()
 
+def parse_args():
+    """コマンドライン引数を解析"""
+    parser = argparse.ArgumentParser(
+        description='マウスコントローラプログラム',
+        formatter_class=argparse.RawTextHelpFormatter
+    )
+    
+    parser.add_argument(
+        '-l', '--library',
+        choices=['pynput', 'PyAutoGUI', 'mouse', 'pywinauto', 'ctypes'],
+        help='使用するマウス制御ライブラリを指定\n'
+             '指定しない場合は設定ファイルの優先順位に従う'
+    )
+    
+    parser.add_argument(
+        '--list-libraries',
+        action='store_true',
+        help='利用可能なライブラリ一覧を表示'
+    )
+    
+    return parser.parse_args()
+
+def list_available_libraries():
+    """利用可能なライブラリ一覧を表示"""
+    print("利用可能なマウス制御ライブラリ:")
+    print("- pynput")
+    print("- PyAutoGUI")
+    print("- mouse") 
+    print("- pywinauto")
+    print("- ctypes")
+
 if __name__ == '__main__':
-    controller = MouseController()
+    args = parse_args()
+    
+    if args.list_libraries:
+        list_available_libraries()
+        sys.exit(0)
+        
+    controller = MouseController(library=args.library)
     controller.start()
